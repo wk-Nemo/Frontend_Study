@@ -1,0 +1,157 @@
+/* 公共样式 */
+body{
+    font-size: 12px;
+    color:#333;
+}
+.container{
+    width: 1206px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/* 顶部代码 */
+.page-top{
+    height:38px;
+    background-color: #323232;
+}
+
+.page-top .top-left{
+    color:#a2a2a2;
+    line-height: 38px;
+    float: left;
+}
+
+.page-top span{
+    color:rgb(66,66,66);
+    padding:3px 0;
+}
+
+.page-top .top-left a:hover{
+    color:rgb(242,242,255);
+}
+
+.page-top .top-left .download{
+    position: relative;
+    display: inline-block;
+}
+
+.page-top .top-left .down-box{
+    width: 126px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 38px;
+    margin-left: -63px;
+    padding-top:20px;
+    box-shadow: rgb(170,170,170) 0px 1px 5px;
+    color: black;
+    text-align: center;
+    display:none;
+}
+
+.page-top .top-left .tran{
+    position: absolute;
+    left: 50%;
+    top:-6px;
+    margin-left: -3px;;
+    width:0;
+    height:0;
+    border-width: 0 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent white;
+}
+
+.page-top .top-left .down-box img{
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
+}
+
+.page-top .top-left a.download:hover .down-box{
+    display: block;
+}
+
+.page-top .top-right{
+    color:#a2a2a2;
+    line-height: 38px;
+    float: right;
+}
+
+.page-top .top-right .login{
+    float: left;
+}
+
+.page-top .top-right .car-box{
+    text-align: center;
+    float: right;
+    width: 118px;
+    background-color: #424242;
+    margin-left: 20px;
+}
+
+.page-top .top-right .download{
+    position: relative;
+    display: block;
+}
+
+.page-top .top-right .car-down{
+    width: 357px;
+    height:109px;
+    color:black;
+    background-color:white;
+    position: absolute;
+    top:0;
+    margin-left: -239px;
+    box-shadow: rgb(170,170,170) 0px 1px 5px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-top .top-right .car-box:hover .car-down{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

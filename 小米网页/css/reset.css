@@ -1,0 +1,38 @@
+/* 重置样式 */
+body,p,h1,h2,h3,h4,ul{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color:rgb(176,176,176);
+}
+i{
+    font-style: normal; 
+}
+input,button{
+    margin: 0;
+    padding: 0;
+}
+button{
+    outline: none;
+}
+table{
+    border-collapse: collapse;  /* 边框模式，合并的模式 */
+}
+th,td{
+    padding: 0;
+}
+
+
+
+
+
