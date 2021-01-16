@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "705665",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "840782",
+      "name": "小米",
+      "font_class": "xiaomi",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
       "icon_id": "1371929",
       "name": "箭头",
       "font_class": "jiantou",
