@@ -151,9 +151,7 @@ body{
     color: #666;
 }
 
-#page-all-nav{
-    /* visibility: hidden; */
-}
+
 
 .page-nav .nav .nav-item:hover .tit{
     color:rgb(255,103,0);
@@ -209,7 +207,130 @@ body{
     margin:10px 10px;
 }
 
+#page-all-nav{
+    /* visibility: hidden; */
+    position: relative;
+}
 
+/* 全部分类菜单样式 */
+.slider-nav{
+    position: absolute;
+    top:96px;
+    right:-37px;
+    width: 232px;
+    height: 458px;
+    background-color: white;
+    padding: 20px 0;
+    background: rgba(105,101,101,.6);
+}
+
+.slider-nav .slider-ul{  
+    line-height: 13px;
+    position: relative;
+}
+
+.slider-nav .slider-li{
+    padding: 0 20px;
+    height:45.8px;
+    text-align: center;
+    line-height: 45.8px;
+}
+
+.slider-nav .slider-li .name{
+      color:white;
+      display: block;
+      text-align: left;
+}
+
+.slider-nav .slider-li .icon-jiantou{
+    float: right;
+}
+
+.slider-nav .slider-li:hover{
+    background-color: #FF6700;
+}
+
+.slider-nav .slider-li:hover .box-right{
+    display: grid;
+}
+
+.slider-nav .slider-li .box-right{
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 8px 16px rgba(0,0,0,.18);
+    height: 496px;
+    min-width:430px;
+    position: absolute;
+    top:0;
+    left:232px;
+    margin-top: -20px;
+    display: none;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto;
+    /* justify-items: center;
+    align-items: center; */
+}
+
+.slider-nav .slider-li .box-right .d{
+   justify-self: left;
+   align-self: center;
+}
+
+.slider-nav .slider-li .box-right .d a{
+    color: black;
+}
+
+.slider-nav .slider-li .box-right .d a:hover{
+    color:#FF6700;
+}
+
+
+.slider-nav .slider-li .box-right .d img{
+    margin:0 10px;
+}
+
+/* 搜索 */
+.search{
+    float: right;
+    position: relative;
+    margin-top: 24px;
+}
+.search .q{
+    width:234px;
+    height:40px;
+    border:1px solid #FF6700;
+    outline: none;
+    line-height: 48px;
+    padding-left: 4px;
+    float: left;
+   
+}
+
+
+
+.search .tags:hover{
+    background-color: #FF6700;
+    color:#eee;
+}
+
+.search .btn{
+    width: 40px;
+    height: 42px;
+    border:1px solid #FF6700;
+    border-left: none;
+    float: left;
+    color:rgb(97,97,97);
+    background-color: white;
+}
+
+.icon-search{
+    position: absolute;
+    font-size: 15px;
+    top:50%;
+    right:20px;
+    margin-right: -7.5px;
+    margin-top: -7.5px;
+}
 
 
 
