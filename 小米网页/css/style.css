@@ -141,7 +141,7 @@ body{
 }
 
 .page-nav .nav .nav-item{
-    line-height: 96px;
+    line-height: 95px;
     margin-left: 20px;
     float: left;
 }
@@ -216,7 +216,7 @@ body{
 .slider-nav{
     position: absolute;
     top:96px;
-    right:-37px;
+    right:-33px;
     width: 232px;
     height: 458px;
     background-color: white;
@@ -332,9 +332,31 @@ body{
     margin-top: -7.5px;
 }
 
+.idx-banner{
+    /* border:1px solid blue; */
+    height: 498px;
+}
 
 
 
+.idx-banner ul{
+    width:20000px;
+}
+
+.idx-banner li{
+    width:1206px;
+    float: left;
+}
+
+.idx-banner .list-first{
+    display: block;
+}
+
+.idx-banner img{
+    display: none;
+    width: 1206px;
+    height: 498px;
+}
 
 
 
