@@ -34,6 +34,7 @@ body{
 .page-top .top-left .download{
     position: relative;
     display: inline-block;
+    
 }
 
 .page-top .top-left .down-box{
@@ -267,6 +268,7 @@ body{
     grid-auto-flow: column;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: auto auto;
+    background-color: white;
     /* justify-items: center;
     align-items: center; */
 }
@@ -335,6 +337,8 @@ body{
 .idx-banner{
     /* border:1px solid blue; */
     height: 498px;
+    position: relative;
+    z-index:-1;
 }
 
 
@@ -358,6 +362,58 @@ body{
     height: 498px;
 }
 
+.idx-banner .btn{
+    position:absolute;
+    left:0;
+    top:0;
+    width:40px;
+    height: 70px;
+    /* background-color: black; */
+    /* left:231px; */
+    color: rgb(156,157,160);
+    line-height: 70px;
+    top:50%;
+    margin-top: -35px;  
+}
+
+.idx-banner .btn:hover{
+    /* background-color: white; */
+}
+
+.idx-banner .btn .icon-jiantou{
+    font-size: 35px;
+}
+
+.idx-banner .prev{
+    left:231px;
+    transform: rotateX(180deg); 
+}
+
+.idx-banner .next{
+    left:1166px;
+}
+
+.idx-banner .page{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    padding-right:40px;
+    padding-bottom: 30px;
+}
+
+.idx-banner .page a{
+    display: inline-block;
+    margin:0 5px;
+    width: 6px;
+    height:6px;
+    border:2px solid #fff;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+}
+
+.idx-banner .page span{
+    visibility: hidden;
+}
 
 
 
